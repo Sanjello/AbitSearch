@@ -18,3 +18,13 @@ class UniversityItem(scrapy.Item):
     budget_places = scrapy.Field()
     applications = scrapy.Field()
     original_applications = scrapy.Field()
+
+class SpecItem(scrapy.Item):
+    name = scrapy.Field()
+    studyForm = scrapy.Field()
+    faculty = scrapy.Field()
+    countOfRequest = scrapy.Field()
+    numOfBudgetPlaces = scrapy.Field()
+    university = scrapy.Field()
+
+
